@@ -1,6 +1,6 @@
 #!/bin/sh
 # wechsele ins OpenSim bin Verzeichnis
-cd /home/pi/diva-r08210/bin  #diva-r08210  #diva-r09000
+cd /home/pi/diva-r09210/bin  #diva-r08210  #diva-r09000
 while :
 do
 # Erststart: warte bis alles hochgefahren ist – später: vermeide häufiges Triggern
