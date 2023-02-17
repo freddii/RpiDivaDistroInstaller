@@ -1,0 +1,18 @@
+[opensim-tcp]
+enabled = true
+filter  = opensim
+port    =  9000
+# edit the logpath to your needs:
+logpath = /home/pi/diva-r08210/bin/OpenSim.log
+maxretry = 6
+protocol = tcp
+#
+#
+[opensim-udp]
+enabled = true
+filter  = opensim
+port    =  9000
+# edit the logpath to your needs:
+logpath = /home/pi/diva-r08210/bin/OpenSim.log
+maxretry = 6
+protocol = udp

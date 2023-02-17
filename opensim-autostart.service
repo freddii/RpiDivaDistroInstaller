@@ -1,0 +1,11 @@
+[Unit]
+Description=At system boot call autostart.sh of user.
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/opensim-autostart.sh start
+ExecStop=/etc/systemd/system/opensim-autostart.sh stop
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
